@@ -1,0 +1,13 @@
+import Historia.*
+
+describe "Tests de Historias del Lobo Feroz" {
+
+	test "En la Historia 1 el lobo no termina saludable" {
+		assert.notThat(historiaUno.hUno())
+	}
+
+	test "En la Historia 2 el lobo termina saludable" {
+		assert.that(historiaDos.hDos())
+	}
+
+}
